@@ -13,6 +13,9 @@
 		1CEBB526221A818800B8D9D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBB525221A818800B8D9D0 /* Assets.xcassets */; };
 		1CEBB529221A818800B8D9D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBB527221A818800B8D9D0 /* LaunchScreen.storyboard */; };
 		1CEBB52C221A818800B8D9D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBB52B221A818800B8D9D0 /* main.m */; };
+		1CEBB537221A823800B8D9D0 /* LeftCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBB536221A823800B8D9D0 /* LeftCollectionView.m */; };
+		1CEBB53A221A82AE00B8D9D0 /* LeftCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBB539221A82AE00B8D9D0 /* LeftCollectionViewCell.m */; };
+		1CEBB53E221A8E5300B8D9D0 /* leftFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBB53C221A8E5300B8D9D0 /* leftFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		1CEBB528221A818800B8D9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CEBB52A221A818800B8D9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CEBB52B221A818800B8D9D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CEBB535221A823800B8D9D0 /* LeftCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftCollectionView.h; sourceTree = "<group>"; };
+		1CEBB536221A823800B8D9D0 /* LeftCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftCollectionView.m; sourceTree = "<group>"; };
+		1CEBB538221A82AE00B8D9D0 /* LeftCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftCollectionViewCell.h; sourceTree = "<group>"; };
+		1CEBB539221A82AE00B8D9D0 /* LeftCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftCollectionViewCell.m; sourceTree = "<group>"; };
+		1CEBB53C221A8E5300B8D9D0 /* leftFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftFlowLayout.m; sourceTree = "<group>"; };
+		1CEBB53D221A8E5300B8D9D0 /* leftFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftFlowLayout.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				1CEBB51D221A818700B8D9D0 /* AppDelegate.m */,
 				1CEBB51F221A818700B8D9D0 /* ViewController.h */,
 				1CEBB520221A818700B8D9D0 /* ViewController.m */,
+				1CEBB535221A823800B8D9D0 /* LeftCollectionView.h */,
+				1CEBB536221A823800B8D9D0 /* LeftCollectionView.m */,
+				1CEBB538221A82AE00B8D9D0 /* LeftCollectionViewCell.h */,
+				1CEBB539221A82AE00B8D9D0 /* LeftCollectionViewCell.m */,
+				1CEBB53D221A8E5300B8D9D0 /* leftFlowLayout.h */,
+				1CEBB53C221A8E5300B8D9D0 /* leftFlowLayout.m */,
 				1CEBB522221A818700B8D9D0 /* Main.storyboard */,
 				1CEBB525221A818800B8D9D0 /* Assets.xcassets */,
 				1CEBB527221A818800B8D9D0 /* LaunchScreen.storyboard */,
@@ -143,7 +158,10 @@
 			files = (
 				1CEBB521221A818700B8D9D0 /* ViewController.m in Sources */,
 				1CEBB52C221A818800B8D9D0 /* main.m in Sources */,
+				1CEBB53E221A8E5300B8D9D0 /* leftFlowLayout.m in Sources */,
 				1CEBB51E221A818700B8D9D0 /* AppDelegate.m in Sources */,
+				1CEBB537221A823800B8D9D0 /* LeftCollectionView.m in Sources */,
+				1CEBB53A221A82AE00B8D9D0 /* LeftCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9TR8XAZ6W8;
 				INFOPLIST_FILE = CollectionViewCellLeftFlowLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9TR8XAZ6W8;
 				INFOPLIST_FILE = CollectionViewCellLeftFlowLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

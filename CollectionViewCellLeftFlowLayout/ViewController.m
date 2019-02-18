@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "LeftCollectionView.h"
+#import "leftFlowLayout.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    leftFlowLayout *leftAlignedLayout = [[leftFlowLayout alloc] init];
+    leftAlignedLayout.minimumLineSpacing = 10;
+    leftAlignedLayout.minimumInteritemSpacing = 20;
+    leftAlignedLayout.sectionInset = UIEdgeInsetsMake(20, 20, 20, 20);
+    LeftCollectionView *collectionView = [[LeftCollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:leftAlignedLayout];
+    [self.view addSubview:collectionView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
